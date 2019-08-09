@@ -4,6 +4,18 @@
 A Python package to check vulnerability and strength pf a password.
 
 ### Usage
-Following query on terminal will provide you the weather details of "delhi" for next 3 days.
 
-weather-reporter -q delhi -d 3
+```python
+
+# importing the package 
+from password_checker import pc4
+
+checker = ps4.PasswordChecker('YOUR_PASSWORD')
+
+# The PasswordChecker will take String as a Argument
+
+# To check vulnerability of a password.
+
+checker.isvulnerable()  # Returns True if it is vulnerable.
+
+```
