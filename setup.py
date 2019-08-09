@@ -12,7 +12,7 @@ setup(
     description="A Python package to check vulnerability and strength pf a password.",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/srimani-programmer/password-checker",
     author="Sri Manikanta Palakollu",
     author_email="srimani.crypter@gmail.com",
     license="MIT",
@@ -26,10 +26,4 @@ setup(
     ],
     packages=["password_checker"],
     include_package_data=True,
-    install_requires=["requests"],
-    entry_points={
-        "console_scripts": [
-            "weather-reporter=weather_reporter.cli:main",
-        ]
-    },
 )
